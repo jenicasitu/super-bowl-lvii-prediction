@@ -7,6 +7,6 @@
 <p><b>File Dictionary</b></p>
 </p>Super Bowl Prediction Project - Final ensemble prediction, includes information about which data files were used for each prediction model variation and information (source, summary, manipulation) for each data file</p>
 </p>Super Bowl Prediction 1-4 - Model variations</p>
-</p>NFL Data, nfl_pass_rush_receive_raw_data MASTER, nfl_pass_rush_receive_raw_data SB57 FINALS, nfl_pass_rush_receive_raw_data SB57 PLAYOFFS - Data files</p>
+</p>NFL Data, nfl_pass_rush_receive_raw_data MASTER, nfl_pass_rush_receive_raw_data SB57 PLAYOFFS, nfl_pass_rush_receive_raw_data SB57 FINALS - Data files</p>
 
 <p><i>This project was created for course BANA 287: The Art & Science of Applied Forecast Modeling at the University of california, Irvine under the guidance of Professors David Savlowitz and Michael Ponton in 2023.</i></p>
