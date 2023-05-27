@@ -1,0 +1,1725 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\jenic\OneDrive\Desktop\BANA 287 Alteryx\Super Bowl\nfl_pass_rush_receive_raw_data MASTER.xlsx|||`Sheet1$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>nfl_pass_rush_receive_raw_data MASTER.xlsx
+Query=`Sheet1$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Team Name" size="255" source="File: C:\Users\jenic\OneDrive\Desktop\BANA 287 Alteryx\Super Bowl\nfl_pass_rush_receive_raw_data MASTER.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Home_yes" source="File: C:\Users\jenic\OneDrive\Desktop\BANA 287 Alteryx\Super Bowl\nfl_pass_rush_receive_raw_data MASTER.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Visit_yes" source="File: C:\Users\jenic\OneDrive\Desktop\BANA 287 Alteryx\Super Bowl\nfl_pass_rush_receive_raw_data MASTER.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="pass_cmp" source="File: C:\Users\jenic\OneDrive\Desktop\BANA 287 Alteryx\Super Bowl\nfl_pass_rush_receive_raw_data MASTER.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="pass_att" source="File: C:\Users\jenic\OneDrive\Desktop\BANA 287 Alteryx\Super Bowl\nfl_pass_rush_receive_raw_data MASTER.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="pass_yds" source="File: C:\Users\jenic\OneDrive\Desktop\BANA 287 Alteryx\Super Bowl\nfl_pass_rush_receive_raw_data MASTER.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="pass_td" source="File: C:\Users\jenic\OneDrive\Desktop\BANA 287 Alteryx\Super Bowl\nfl_pass_rush_receive_raw_data MASTER.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="pass_int" source="File: C:\Users\jenic\OneDrive\Desktop\BANA 287 Alteryx\Super Bowl\nfl_pass_rush_receive_raw_data MASTER.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="pass_sacked" source="File: C:\Users\jenic\OneDrive\Desktop\BANA 287 Alteryx\Super Bowl\nfl_pass_rush_receive_raw_data MASTER.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="pass_sacked_yds" source="File: C:\Users\jenic\OneDrive\Desktop\BANA 287 Alteryx\Super Bowl\nfl_pass_rush_receive_raw_data MASTER.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="pass_long" source="File: C:\Users\jenic\OneDrive\Desktop\BANA 287 Alteryx\Super Bowl\nfl_pass_rush_receive_raw_data MASTER.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="pass_rating" source="File: C:\Users\jenic\OneDrive\Desktop\BANA 287 Alteryx\Super Bowl\nfl_pass_rush_receive_raw_data MASTER.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="rush_att" source="File: C:\Users\jenic\OneDrive\Desktop\BANA 287 Alteryx\Super Bowl\nfl_pass_rush_receive_raw_data MASTER.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="rush_yds" source="File: C:\Users\jenic\OneDrive\Desktop\BANA 287 Alteryx\Super Bowl\nfl_pass_rush_receive_raw_data MASTER.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="rush_td" source="File: C:\Users\jenic\OneDrive\Desktop\BANA 287 Alteryx\Super Bowl\nfl_pass_rush_receive_raw_data MASTER.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="rush_long" source="File: C:\Users\jenic\OneDrive\Desktop\BANA 287 Alteryx\Super Bowl\nfl_pass_rush_receive_raw_data MASTER.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="targets" source="File: C:\Users\jenic\OneDrive\Desktop\BANA 287 Alteryx\Super Bowl\nfl_pass_rush_receive_raw_data MASTER.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="rec" source="File: C:\Users\jenic\OneDrive\Desktop\BANA 287 Alteryx\Super Bowl\nfl_pass_rush_receive_raw_data MASTER.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="rec_yds" source="File: C:\Users\jenic\OneDrive\Desktop\BANA 287 Alteryx\Super Bowl\nfl_pass_rush_receive_raw_data MASTER.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="rec_td" source="File: C:\Users\jenic\OneDrive\Desktop\BANA 287 Alteryx\Super Bowl\nfl_pass_rush_receive_raw_data MASTER.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="rec_long" source="File: C:\Users\jenic\OneDrive\Desktop\BANA 287 Alteryx\Super Bowl\nfl_pass_rush_receive_raw_data MASTER.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="fumbles_lost" source="File: C:\Users\jenic\OneDrive\Desktop\BANA 287 Alteryx\Super Bowl\nfl_pass_rush_receive_raw_data MASTER.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="rush_scrambles" source="File: C:\Users\jenic\OneDrive\Desktop\BANA 287 Alteryx\Super Bowl\nfl_pass_rush_receive_raw_data MASTER.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="designed_rush_att" source="File: C:\Users\jenic\OneDrive\Desktop\BANA 287 Alteryx\Super Bowl\nfl_pass_rush_receive_raw_data MASTER.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="comb_pass_rush_play" source="File: C:\Users\jenic\OneDrive\Desktop\BANA 287 Alteryx\Super Bowl\nfl_pass_rush_receive_raw_data MASTER.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="comb_pass_play" source="File: C:\Users\jenic\OneDrive\Desktop\BANA 287 Alteryx\Super Bowl\nfl_pass_rush_receive_raw_data MASTER.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="comb_rush_play" source="File: C:\Users\jenic\OneDrive\Desktop\BANA 287 Alteryx\Super Bowl\nfl_pass_rush_receive_raw_data MASTER.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="two_point_conv" source="File: C:\Users\jenic\OneDrive\Desktop\BANA 287 Alteryx\Super Bowl\nfl_pass_rush_receive_raw_data MASTER.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="total_ret_td" source="File: C:\Users\jenic\OneDrive\Desktop\BANA 287 Alteryx\Super Bowl\nfl_pass_rush_receive_raw_data MASTER.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="offensive_fumble_recovery_td" source="File: C:\Users\jenic\OneDrive\Desktop\BANA 287 Alteryx\Super Bowl\nfl_pass_rush_receive_raw_data MASTER.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="pass_yds_bonus" source="File: C:\Users\jenic\OneDrive\Desktop\BANA 287 Alteryx\Super Bowl\nfl_pass_rush_receive_raw_data MASTER.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="rush_yds_bonus" source="File: C:\Users\jenic\OneDrive\Desktop\BANA 287 Alteryx\Super Bowl\nfl_pass_rush_receive_raw_data MASTER.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="rec_yds_bonus" source="File: C:\Users\jenic\OneDrive\Desktop\BANA 287 Alteryx\Super Bowl\nfl_pass_rush_receive_raw_data MASTER.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Total_DKP" source="File: C:\Users\jenic\OneDrive\Desktop\BANA 287 Alteryx\Super Bowl\nfl_pass_rush_receive_raw_data MASTER.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Total_FDP" source="File: C:\Users\jenic\OneDrive\Desktop\BANA 287 Alteryx\Super Bowl\nfl_pass_rush_receive_raw_data MASTER.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Total_SDP" source="File: C:\Users\jenic\OneDrive\Desktop\BANA 287 Alteryx\Super Bowl\nfl_pass_rush_receive_raw_data MASTER.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="pass_target_yds" source="File: C:\Users\jenic\OneDrive\Desktop\BANA 287 Alteryx\Super Bowl\nfl_pass_rush_receive_raw_data MASTER.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="pass_poor_throws" source="File: C:\Users\jenic\OneDrive\Desktop\BANA 287 Alteryx\Super Bowl\nfl_pass_rush_receive_raw_data MASTER.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="pass_blitzed" source="File: C:\Users\jenic\OneDrive\Desktop\BANA 287 Alteryx\Super Bowl\nfl_pass_rush_receive_raw_data MASTER.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="pass_hurried" source="File: C:\Users\jenic\OneDrive\Desktop\BANA 287 Alteryx\Super Bowl\nfl_pass_rush_receive_raw_data MASTER.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="rush_yds_before_contact" source="File: C:\Users\jenic\OneDrive\Desktop\BANA 287 Alteryx\Super Bowl\nfl_pass_rush_receive_raw_data MASTER.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="rush_yac" source="File: C:\Users\jenic\OneDrive\Desktop\BANA 287 Alteryx\Super Bowl\nfl_pass_rush_receive_raw_data MASTER.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="rush_broken_tackles" source="File: C:\Users\jenic\OneDrive\Desktop\BANA 287 Alteryx\Super Bowl\nfl_pass_rush_receive_raw_data MASTER.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="rec_air_yds" source="File: C:\Users\jenic\OneDrive\Desktop\BANA 287 Alteryx\Super Bowl\nfl_pass_rush_receive_raw_data MASTER.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="rec_yac" source="File: C:\Users\jenic\OneDrive\Desktop\BANA 287 Alteryx\Super Bowl\nfl_pass_rush_receive_raw_data MASTER.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="rec_drops" source="File: C:\Users\jenic\OneDrive\Desktop\BANA 287 Alteryx\Super Bowl\nfl_pass_rush_receive_raw_data MASTER.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="offense" source="File: C:\Users\jenic\OneDrive\Desktop\BANA 287 Alteryx\Super Bowl\nfl_pass_rush_receive_raw_data MASTER.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="off_pct" source="File: C:\Users\jenic\OneDrive\Desktop\BANA 287 Alteryx\Super Bowl\nfl_pass_rush_receive_raw_data MASTER.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="vis_score" source="File: C:\Users\jenic\OneDrive\Desktop\BANA 287 Alteryx\Super Bowl\nfl_pass_rush_receive_raw_data MASTER.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="home_score" source="File: C:\Users\jenic\OneDrive\Desktop\BANA 287 Alteryx\Super Bowl\nfl_pass_rush_receive_raw_data MASTER.xlsx|||`Sheet1$`" type="Double" />
+            <Field name=" OT_yes" source="File: C:\Users\jenic\OneDrive\Desktop\BANA 287 Alteryx\Super Bowl\nfl_pass_rush_receive_raw_data MASTER.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="OT_no" source="File: C:\Users\jenic\OneDrive\Desktop\BANA 287 Alteryx\Super Bowl\nfl_pass_rush_receive_raw_data MASTER.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Roof_yes" source="File: C:\Users\jenic\OneDrive\Desktop\BANA 287 Alteryx\Super Bowl\nfl_pass_rush_receive_raw_data MASTER.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Roof_no" source="File: C:\Users\jenic\OneDrive\Desktop\BANA 287 Alteryx\Super Bowl\nfl_pass_rush_receive_raw_data MASTER.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Surface_realgrass" source="File: C:\Users\jenic\OneDrive\Desktop\BANA 287 Alteryx\Super Bowl\nfl_pass_rush_receive_raw_data MASTER.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Surface_fakegrass" source="File: C:\Users\jenic\OneDrive\Desktop\BANA 287 Alteryx\Super Bowl\nfl_pass_rush_receive_raw_data MASTER.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Temperature" source="File: C:\Users\jenic\OneDrive\Desktop\BANA 287 Alteryx\Super Bowl\nfl_pass_rush_receive_raw_data MASTER.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Humidity" source="File: C:\Users\jenic\OneDrive\Desktop\BANA 287 Alteryx\Super Bowl\nfl_pass_rush_receive_raw_data MASTER.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Wind_Speed" source="File: C:\Users\jenic\OneDrive\Desktop\BANA 287 Alteryx\Super Bowl\nfl_pass_rush_receive_raw_data MASTER.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Over_Under" source="File: C:\Users\jenic\OneDrive\Desktop\BANA 287 Alteryx\Super Bowl\nfl_pass_rush_receive_raw_data MASTER.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Home_win" source="File: C:\Users\jenic\OneDrive\Desktop\BANA 287 Alteryx\Super Bowl\nfl_pass_rush_receive_raw_data MASTER.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Visit_win" source="File: C:\Users\jenic\OneDrive\Desktop\BANA 287 Alteryx\Super Bowl\nfl_pass_rush_receive_raw_data MASTER.xlsx|||`Sheet1$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="162" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Team Name" selected="False" />
+            <SelectField field="Visit_yes" selected="False" />
+            <SelectField field="OT_no" selected="False" />
+            <SelectField field="Roof_no" selected="False" />
+            <SelectField field="Surface_fakegrass" selected="False" />
+            <SelectField field="Vegas_Line" selected="False" />
+            <SelectField field="Visit_win" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="258" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>Home_yes</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2023-02-05 16:26:24</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>1</Operand>
+              <StartDate>2023-02-05 16:26:24</StartDate>
+              <EndDate>2023-02-05 16:26:24</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Home_yes] = 1</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="258" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>Home_yes</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2023-02-05 16:26:30</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>0</Operand>
+              <StartDate>2023-02-05 16:26:30</StartDate>
+              <EndDate>2023-02-05 16:26:30</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Home_yes] = 0</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="342" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\jenic\AppData\Local\Temp\Engine_9732_2f576a43e31d1b47852c40381edc93cf_\Engine_9732_ce20b789270d694b8b55dc39c0c7023b~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="Linear_Regression">
+        <Position x="402" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="curPage">Home</Value>
+          <Value name="curTab">advanced</Value>
+          <Value name="standardize_pred">True</Value>
+          <Value name="internal_cv">True</Value>
+          <Value name="display_graphs">True</Value>
+          <Value name="set_seed_internal_cv">True</Value>
+          <Value name="set_seed_external_cv">True</Value>
+          <Value name="lambda_1se">True</Value>
+          <Value name="lambda_min">False</Value>
+          <Value name="Model Name">Home</Value>
+          <Value name="Y Var">home_score</Value>
+          <Value name="X Vars">pass_cmp,pass_att,pass_yds,pass_td,pass_int,pass_sacked,pass_sacked_yds,pass_long,pass_rating,rush_att,rush_yds,rush_td,rush_long,targets,rec,rec_yds,rec_td,rec_long,fumbles_lost,rush_scrambles,designed_rush_att,comb_pass_rush_play,comb_pass_play,comb_rush_play,two_point_conv,total_ret_td,offensive_fumble_recovery_td,pass_yds_bonus,rush_yds_bonus,rec_yds_bonus,Total_DKP,Total_FDP,Total_SDP,pass_target_yds,pass_poor_throws,pass_blitzed,pass_hurried,rush_yds_before_contact,rush_yac,rush_broken_tackles,rec_air_yds,rec_yac,rec_drops,offense,off_pct, OT_yes,Roof_yes,Surface_realgrass,Temperature,Humidity,Wind_Speed,Vegas_Line,Over_Under</Value>
+          <Value name="Omit Constant">False</Value>
+          <Value name="Use Weights">False</Value>
+          <Value name="Weight Vec" />
+          <Value name="regularization">False</Value>
+          <Value name="alpha">0.5</Value>
+          <Value name="nfolds">5</Value>
+          <Value name="lambda">lambda_1se</Value>
+          <Value name="seed_internal_cv">1</Value>
+          <Value name="lambda_no_cv">0.5</Value>
+          <Value name="external_cv">False</Value>
+          <Value name="nfolds_external">5</Value>
+          <Value name="numberTrials">3</Value>
+          <Value name="external_seed_value">1</Value>
+          <Value name="graph.resolution">1x</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Home</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Linear_Regression/Supporting_Macros/Linear_Regression.yxmc" EngineDll="Macro" EngineDllEntryPoint="Linear_Regression/Supporting_Macros/Linear_Regression.yxmc" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="510" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\jenic\AppData\Local\Temp\Engine_9732_2f576a43e31d1b47852c40381edc93cf_\Engine_9732_373335378e0ab849861d0332e638aede~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings>
+        <Position x="330" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="x var">rush_yds</Value>
+          <Value name="y var">home_score</Value>
+          <Value name="y binary">False</Value>
+          <Value name="y level" />
+          <Value name="reg line">True</Value>
+          <Value name="smooth line">True</Value>
+          <Value name="smooth span">50</Value>
+          <Value name="spread">True</Value>
+          <Value name="boxplots">True</Value>
+          <Value name="jitter x">False</Value>
+          <Value name="jitter y">False</Value>
+          <Value name="log x">False</Value>
+          <Value name="log y">False</Value>
+          <Value name="groups">False</Value>
+          <Value name="group var">Team Name</Value>
+          <Value name="group lines">False</Value>
+          <Value name="default">True</Value>
+          <Value name="topleft">False</Value>
+          <Value name="topright">False</Value>
+          <Value name="bottomleft">False</Value>
+          <Value name="bottomright">False</Value>
+          <Value name="x label" />
+          <Value name="y label" />
+          <Value name="pointsize">10</Value>
+          <Value name="point size">1.0</Value>
+          <Value name="axis text size">1.2</Value>
+          <Value name="axis label size">1.3</Value>
+          <Value name="title size">1.4</Value>
+          <Value name="inches">True</Value>
+          <Value name="in.w">5.50</Value>
+          <Value name="in.h">5.50</Value>
+          <Value name="centimeters">False</Value>
+          <Value name="cm.w">13.00</Value>
+          <Value name="cm.h">14.95</Value>
+          <Value name="graph.resolution">1x</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Scatterplot.yxmc" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="414" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\jenic\AppData\Local\Temp\Engine_9732_2f576a43e31d1b47852c40381edc93cf_\Engine_9732_0f4a9d6d817b6843a4ee9de178fef3b2~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="426" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\jenic\AppData\Local\Temp\Engine_9732_2f576a43e31d1b47852c40381edc93cf_\Engine_9732_2d06b790f06a274387f4bbeeff539abe~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="Linear_Regression">
+        <Position x="486" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="curPage">Home</Value>
+          <Value name="curTab">advanced</Value>
+          <Value name="standardize_pred">True</Value>
+          <Value name="internal_cv">True</Value>
+          <Value name="display_graphs">True</Value>
+          <Value name="set_seed_internal_cv">True</Value>
+          <Value name="set_seed_external_cv">True</Value>
+          <Value name="lambda_1se">True</Value>
+          <Value name="lambda_min">False</Value>
+          <Value name="Model Name">Visitor</Value>
+          <Value name="Y Var">vis_score</Value>
+          <Value name="X Vars">pass_cmp,pass_att,pass_yds,pass_td,pass_int,pass_sacked,pass_sacked_yds,pass_long,pass_rating,rush_att,rush_yds,rush_td,rush_long,targets,rec,rec_yds,rec_td,rec_long,fumbles_lost,rush_scrambles,designed_rush_att,comb_pass_rush_play,comb_pass_play,comb_rush_play,two_point_conv,total_ret_td,offensive_fumble_recovery_td,pass_yds_bonus,rush_yds_bonus,rec_yds_bonus,Total_DKP,Total_FDP,Total_SDP,pass_target_yds,pass_poor_throws,pass_blitzed,pass_hurried,rush_yds_before_contact,rush_yac,rush_broken_tackles,rec_air_yds,rec_yac,rec_drops,offense,off_pct, OT_yes,Roof_yes,Surface_realgrass,Temperature,Humidity,Wind_Speed,Vegas_Line,Over_Under</Value>
+          <Value name="Omit Constant">False</Value>
+          <Value name="Use Weights">False</Value>
+          <Value name="Weight Vec" />
+          <Value name="regularization">False</Value>
+          <Value name="alpha">0.5</Value>
+          <Value name="nfolds">5</Value>
+          <Value name="lambda">lambda_1se</Value>
+          <Value name="seed_internal_cv">1</Value>
+          <Value name="lambda_no_cv">0.5</Value>
+          <Value name="external_cv">False</Value>
+          <Value name="nfolds_external">5</Value>
+          <Value name="numberTrials">3</Value>
+          <Value name="external_seed_value">1</Value>
+          <Value name="graph.resolution">1x</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Visitor</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Linear_Regression/Supporting_Macros/Linear_Regression.yxmc" EngineDll="Macro" EngineDllEntryPoint="Linear_Regression/Supporting_Macros/Linear_Regression.yxmc" />
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="594" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\jenic\AppData\Local\Temp\Engine_9732_2f576a43e31d1b47852c40381edc93cf_\Engine_9732_2babd665e18c0148ba4d3ea395502d7f~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings>
+        <Position x="414" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="x var">rush_yds</Value>
+          <Value name="y var">vis_score</Value>
+          <Value name="y binary">False</Value>
+          <Value name="y level" />
+          <Value name="reg line">True</Value>
+          <Value name="smooth line">True</Value>
+          <Value name="smooth span">50</Value>
+          <Value name="spread">True</Value>
+          <Value name="boxplots">True</Value>
+          <Value name="jitter x">False</Value>
+          <Value name="jitter y">False</Value>
+          <Value name="log x">False</Value>
+          <Value name="log y">False</Value>
+          <Value name="groups">False</Value>
+          <Value name="group var">Team Name</Value>
+          <Value name="group lines">False</Value>
+          <Value name="default">True</Value>
+          <Value name="topleft">False</Value>
+          <Value name="topright">False</Value>
+          <Value name="bottomleft">False</Value>
+          <Value name="bottomright">False</Value>
+          <Value name="x label" />
+          <Value name="y label" />
+          <Value name="pointsize">10</Value>
+          <Value name="point size">1.0</Value>
+          <Value name="axis text size">1.2</Value>
+          <Value name="axis label size">1.3</Value>
+          <Value name="title size">1.4</Value>
+          <Value name="inches">True</Value>
+          <Value name="in.w">5.50</Value>
+          <Value name="in.h">5.50</Value>
+          <Value name="centimeters">False</Value>
+          <Value name="cm.w">13.00</Value>
+          <Value name="cm.h">14.95</Value>
+          <Value name="graph.resolution">1x</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Scatterplot.yxmc" />
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="498" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\jenic\AppData\Local\Temp\Engine_9732_2f576a43e31d1b47852c40381edc93cf_\Engine_9732_73cb1e32f7706d439586468dfc4359de~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings>
+        <Position x="606" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="estimation pct">70</Value>
+          <Value name="validation pct">30</Value>
+          <Value name="rand seed">1</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Create_Samples.yxmc" />
+    </Node>
+    <Node ToolID="38">
+      <GuiSettings Plugin="Linear_Regression">
+        <Position x="714" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="curPage">Home</Value>
+          <Value name="curTab">crossvalidation</Value>
+          <Value name="standardize_pred">True</Value>
+          <Value name="internal_cv">True</Value>
+          <Value name="display_graphs">True</Value>
+          <Value name="set_seed_internal_cv">True</Value>
+          <Value name="set_seed_external_cv">True</Value>
+          <Value name="lambda_1se">True</Value>
+          <Value name="lambda_min">False</Value>
+          <Value name="Model Name">Home_TT</Value>
+          <Value name="Y Var">home_score</Value>
+          <Value name="X Vars">pass_cmp,pass_att,pass_yds,pass_td,pass_int,pass_sacked,pass_sacked_yds,pass_long,pass_rating,rush_att,rush_yds,rush_td,rush_long,targets,rec,rec_yds,rec_td,rec_long,fumbles_lost,rush_scrambles,designed_rush_att,comb_pass_rush_play,comb_pass_play,comb_rush_play,two_point_conv,total_ret_td,offensive_fumble_recovery_td,pass_yds_bonus,rush_yds_bonus,rec_yds_bonus,Total_DKP,Total_FDP,Total_SDP,pass_target_yds,pass_poor_throws,pass_blitzed,pass_hurried,rush_yds_before_contact,rush_yac,rush_broken_tackles,rec_air_yds,rec_yac,rec_drops,offense,off_pct,vis_score, OT_yes,Roof_yes,Surface_realgrass,Temperature,Humidity,Wind_Speed,Over_Under</Value>
+          <Value name="Omit Constant">False</Value>
+          <Value name="Use Weights">False</Value>
+          <Value name="Weight Vec" />
+          <Value name="regularization">False</Value>
+          <Value name="alpha">0.5</Value>
+          <Value name="nfolds">5</Value>
+          <Value name="lambda">lambda_1se</Value>
+          <Value name="seed_internal_cv">1</Value>
+          <Value name="lambda_no_cv">0.5</Value>
+          <Value name="external_cv">False</Value>
+          <Value name="nfolds_external">5</Value>
+          <Value name="numberTrials">3</Value>
+          <Value name="external_seed_value">1</Value>
+          <Value name="graph.resolution">1x</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Home_TT</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Linear_Regression/Supporting_Macros/Linear_Regression.yxmc" EngineDll="Macro" EngineDllEntryPoint="Linear_Regression/Supporting_Macros/Linear_Regression.yxmc" />
+    </Node>
+    <Node ToolID="39">
+      <GuiSettings>
+        <Position x="678" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="estimation pct">70</Value>
+          <Value name="validation pct">30</Value>
+          <Value name="rand seed">1</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Create_Samples.yxmc" />
+    </Node>
+    <Node ToolID="40">
+      <GuiSettings Plugin="Linear_Regression">
+        <Position x="786" y="342" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="curPage">Home</Value>
+          <Value name="curTab">advanced</Value>
+          <Value name="standardize_pred">True</Value>
+          <Value name="internal_cv">True</Value>
+          <Value name="display_graphs">True</Value>
+          <Value name="set_seed_internal_cv">True</Value>
+          <Value name="set_seed_external_cv">True</Value>
+          <Value name="lambda_1se">True</Value>
+          <Value name="lambda_min">False</Value>
+          <Value name="Model Name">Visitor_TT</Value>
+          <Value name="Y Var">vis_score</Value>
+          <Value name="X Vars">pass_cmp,pass_att,pass_yds,pass_td,pass_int,pass_sacked,pass_sacked_yds,pass_long,pass_rating,rush_att,rush_yds,rush_td,rush_long,targets,rec,rec_yds,rec_td,rec_long,fumbles_lost,rush_scrambles,designed_rush_att,comb_pass_rush_play,comb_pass_play,comb_rush_play,two_point_conv,total_ret_td,offensive_fumble_recovery_td,pass_yds_bonus,rush_yds_bonus,rec_yds_bonus,Total_DKP,Total_FDP,Total_SDP,pass_target_yds,pass_poor_throws,pass_blitzed,pass_hurried,rush_yds_before_contact,rush_yac,rush_broken_tackles,rec_air_yds,rec_yac,rec_drops,offense,off_pct,home_score, OT_yes,Roof_yes,Surface_realgrass,Temperature,Humidity,Wind_Speed,Over_Under</Value>
+          <Value name="Omit Constant">False</Value>
+          <Value name="Use Weights">False</Value>
+          <Value name="Weight Vec" />
+          <Value name="regularization">False</Value>
+          <Value name="alpha">0.5</Value>
+          <Value name="nfolds">5</Value>
+          <Value name="lambda">lambda_1se</Value>
+          <Value name="seed_internal_cv">1</Value>
+          <Value name="lambda_no_cv">0.5</Value>
+          <Value name="external_cv">False</Value>
+          <Value name="nfolds_external">5</Value>
+          <Value name="numberTrials">3</Value>
+          <Value name="external_seed_value">1</Value>
+          <Value name="graph.resolution">1x</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Visitor_TT</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Linear_Regression/Supporting_Macros/Linear_Regression.yxmc" EngineDll="Macro" EngineDllEntryPoint="Linear_Regression/Supporting_Macros/Linear_Regression.yxmc" />
+    </Node>
+    <Node ToolID="41">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="822" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\jenic\AppData\Local\Temp\Engine_9732_2f576a43e31d1b47852c40381edc93cf_\Engine_9732_df3b533792eb0148b6f97f39f5d6afb0~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="42">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="882" y="342" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\jenic\AppData\Local\Temp\Engine_9732_2f576a43e31d1b47852c40381edc93cf_\Engine_9732_f59ddf6f24d62a47b38042fa8d60ec2e~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="43">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="870" y="402" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\jenic\AppData\Local\Temp\Engine_9732_2f576a43e31d1b47852c40381edc93cf_\Engine_9732_efa5360699b4f94abb8b5960e5c60356~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="44">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="810" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\jenic\AppData\Local\Temp\Engine_9732_2f576a43e31d1b47852c40381edc93cf_\Engine_9732_f43871ea8deba947b66cfff713103fb6~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="45">
+      <GuiSettings Plugin="Linear_Regression">
+        <Position x="690" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="curPage">Home</Value>
+          <Value name="curTab">crossvalidation</Value>
+          <Value name="standardize_pred">True</Value>
+          <Value name="internal_cv">True</Value>
+          <Value name="display_graphs">True</Value>
+          <Value name="set_seed_internal_cv">True</Value>
+          <Value name="set_seed_external_cv">True</Value>
+          <Value name="lambda_1se">True</Value>
+          <Value name="lambda_min">False</Value>
+          <Value name="Model Name">Home_Val</Value>
+          <Value name="Y Var">home_score</Value>
+          <Value name="X Vars">pass_cmp,pass_att,pass_yds,pass_td,pass_int,pass_sacked,pass_sacked_yds,pass_long,pass_rating,rush_att,rush_yds,rush_td,rush_long,targets,rec,rec_yds,rec_td,rec_long,fumbles_lost,rush_scrambles,designed_rush_att,comb_pass_rush_play,comb_pass_play,comb_rush_play,two_point_conv,total_ret_td,offensive_fumble_recovery_td,pass_yds_bonus,rush_yds_bonus,rec_yds_bonus,Total_DKP,Total_FDP,Total_SDP,pass_target_yds,pass_poor_throws,pass_blitzed,pass_hurried,rush_yds_before_contact,rush_yac,rush_broken_tackles,rec_air_yds,rec_yac,rec_drops,offense,off_pct, OT_yes,Roof_yes,Surface_realgrass,Temperature,Humidity,Wind_Speed,Vegas_Line,Over_Under</Value>
+          <Value name="Omit Constant">False</Value>
+          <Value name="Use Weights">False</Value>
+          <Value name="Weight Vec" />
+          <Value name="regularization">False</Value>
+          <Value name="alpha">0.5</Value>
+          <Value name="nfolds">5</Value>
+          <Value name="lambda">lambda_1se</Value>
+          <Value name="seed_internal_cv">1</Value>
+          <Value name="lambda_no_cv">0.5</Value>
+          <Value name="external_cv">False</Value>
+          <Value name="nfolds_external">5</Value>
+          <Value name="numberTrials">3</Value>
+          <Value name="external_seed_value">1</Value>
+          <Value name="graph.resolution">1x</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Home_Val</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Linear_Regression/Supporting_Macros/Linear_Regression.yxmc" EngineDll="Macro" EngineDllEntryPoint="Linear_Regression/Supporting_Macros/Linear_Regression.yxmc" />
+    </Node>
+    <Node ToolID="46">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="798" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\jenic\AppData\Local\Temp\Engine_9732_2f576a43e31d1b47852c40381edc93cf_\Engine_9732_0a573e38b0685044969a8559f1b53675~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="47">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="786" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\jenic\AppData\Local\Temp\Engine_9732_2f576a43e31d1b47852c40381edc93cf_\Engine_9732_d48c1b8a1f143e42b62134d7fb78c23d~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="51">
+      <GuiSettings Plugin="Linear_Regression">
+        <Position x="834" y="462" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="curPage">Home</Value>
+          <Value name="curTab">advanced</Value>
+          <Value name="standardize_pred">True</Value>
+          <Value name="internal_cv">True</Value>
+          <Value name="display_graphs">True</Value>
+          <Value name="set_seed_internal_cv">True</Value>
+          <Value name="set_seed_external_cv">True</Value>
+          <Value name="lambda_1se">True</Value>
+          <Value name="lambda_min">False</Value>
+          <Value name="Model Name">Visitor_Val</Value>
+          <Value name="Y Var">vis_score</Value>
+          <Value name="X Vars">pass_cmp,pass_att,pass_yds,pass_td,pass_int,pass_sacked,pass_sacked_yds,pass_long,pass_rating,rush_att,rush_yds,rush_td,rush_long,targets,rec,rec_yds,rec_td,rec_long,fumbles_lost,rush_scrambles,designed_rush_att,comb_pass_rush_play,comb_pass_play,comb_rush_play,two_point_conv,total_ret_td,offensive_fumble_recovery_td,pass_yds_bonus,rush_yds_bonus,rec_yds_bonus,Total_DKP,Total_FDP,Total_SDP,pass_target_yds,pass_poor_throws,pass_blitzed,pass_hurried,rush_yds_before_contact,rush_yac,rush_broken_tackles,rec_air_yds,rec_yac,rec_drops,offense,off_pct, OT_yes,Roof_yes,Surface_realgrass,Temperature,Humidity,Wind_Speed,Vegas_Line,Over_Under,Home_win</Value>
+          <Value name="Omit Constant">False</Value>
+          <Value name="Use Weights">False</Value>
+          <Value name="Weight Vec" />
+          <Value name="regularization">False</Value>
+          <Value name="alpha">0.5</Value>
+          <Value name="nfolds">5</Value>
+          <Value name="lambda">lambda_1se</Value>
+          <Value name="seed_internal_cv">1</Value>
+          <Value name="lambda_no_cv">0.5</Value>
+          <Value name="external_cv">False</Value>
+          <Value name="nfolds_external">5</Value>
+          <Value name="numberTrials">3</Value>
+          <Value name="external_seed_value">1</Value>
+          <Value name="graph.resolution">1x</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Visitor_Val</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Linear_Regression/Supporting_Macros/Linear_Regression.yxmc" EngineDll="Macro" EngineDllEntryPoint="Linear_Regression/Supporting_Macros/Linear_Regression.yxmc" />
+    </Node>
+    <Node ToolID="52">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="930" y="462" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\jenic\AppData\Local\Temp\Engine_9732_2f576a43e31d1b47852c40381edc93cf_\Engine_9732_b3965fa8844cea4ebd5f62f577e0fb44~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="53">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="918" y="522" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\jenic\AppData\Local\Temp\Engine_9732_2f576a43e31d1b47852c40381edc93cf_\Engine_9732_4c87af76a219fc4db1c89eb6e9bc98ea~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="54">
+      <GuiSettings Plugin="Score">
+        <Position x="990" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="modelChoice">Local Model</Value>
+          <Value name="score field">Score</Value>
+          <Value name="is oversampled">False</Value>
+          <Value name="oversampled value">
+          </Value>
+          <Value name="original percent">2</Value>
+          <Value name="log y">False</Value>
+          <Value name="prediction.interval">False</Value>
+          <Value name="interval.level">95</Value>
+          <Value name="append.xdf">False</Value>
+          <Value name="num.records">256000</Value>
+          <Value name="credentials">
+          </Value>
+          <Value name="models">
+          </Value>
+          <Value name="page">
+          </Value>
+          <Value name="errorStatus">
+          </Value>
+          <Value name="modelDetailJSON">
+          </Value>
+          <Value name="modelDetails">{"Name":"","Owner":"","Status":"","Id":"","LastDeployment":"","LastUpdated":"","LatestVersion":"","ActiveVersion":"","NumReplications":"","NumVersions":""}</Value>
+          <Value name="promoteURL">
+          </Value>
+          <Value name="username">
+          </Value>
+          <Value name="model_name">
+          </Value>
+          <Value name="model_owner">
+          </Value>
+          <Value name="apiKey">
+          </Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Score\Supporting_Macros\score-engine.yxmc" EngineDll="Macro" EngineDllEntryPoint="Score\Supporting_Macros\score-engine.yxmc" />
+    </Node>
+    <Node ToolID="55">
+      <GuiSettings Plugin="Score">
+        <Position x="1038" y="450" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="modelChoice">Local Model</Value>
+          <Value name="score field">Score</Value>
+          <Value name="is oversampled">False</Value>
+          <Value name="oversampled value">
+          </Value>
+          <Value name="original percent">2</Value>
+          <Value name="log y">False</Value>
+          <Value name="prediction.interval">False</Value>
+          <Value name="interval.level">95</Value>
+          <Value name="append.xdf">False</Value>
+          <Value name="num.records">256000</Value>
+          <Value name="credentials">
+          </Value>
+          <Value name="models">
+          </Value>
+          <Value name="page">
+          </Value>
+          <Value name="errorStatus">
+          </Value>
+          <Value name="modelDetailJSON">
+          </Value>
+          <Value name="modelDetails">{"Name":"","Owner":"","Status":"","Id":"","LastDeployment":"","LastUpdated":"","LatestVersion":"","ActiveVersion":"","NumReplications":"","NumVersions":""}</Value>
+          <Value name="promoteURL">
+          </Value>
+          <Value name="username">
+          </Value>
+          <Value name="model_name">
+          </Value>
+          <Value name="model_owner">
+          </Value>
+          <Value name="apiKey">
+          </Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Score\Supporting_Macros\score-engine.yxmc" EngineDll="Macro" EngineDllEntryPoint="Score\Supporting_Macros\score-engine.yxmc" />
+    </Node>
+    <Node ToolID="56">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1098" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\jenic\AppData\Local\Temp\Engine_9732_2f576a43e31d1b47852c40381edc93cf_\Engine_9732_5004ce363761e74aaa782963e15590bf~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="57">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1110" y="402" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\jenic\AppData\Local\Temp\Engine_9732_2f576a43e31d1b47852c40381edc93cf_\Engine_9732_ce3d6b7fcb47ef44bdb302ae2e57ea7d~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="58">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1098" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="[home_score]-[Score]" field="H_Error" size="8" type="Double" />
+            <FormulaField expression="abs([H_Error]/[home_score])" field="H_MAPE" size="8" type="Double" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[H_Error = [home_score]-[Score]
+H_MAPE = abs([H_Error]/[home_score])
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="59">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1122" y="510" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="[vis_score]-[Score]" field="V_Error" size="8" type="Double" />
+            <FormulaField expression="abs([V_Error]/[vis_score])" field="V_MAPE" size="8" type="Double" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[V_Error = [vis_score]-[Score]
+V_MAPE = abs([V_Error]/[vis_score])
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="60">
+      <GuiSettings>
+        <Position x="1194" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="field">Score</Value>
+          <Value name="notauto">False</Value>
+          <Value name="breaks">1</Value>
+          <Value name="density">False</Value>
+          <Value name="scale">1.0</Value>
+          <Value name="inches">True</Value>
+          <Value name="in.w">5.50</Value>
+          <Value name="in.h">5.50</Value>
+          <Value name="centimeters">False</Value>
+          <Value name="cm.w">13.00</Value>
+          <Value name="cm.h">14.95</Value>
+          <Value name="graph.resolution">1x</Value>
+          <Value name="pointsize">10</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Histogram.yxmc" />
+    </Node>
+    <Node ToolID="61">
+      <GuiSettings>
+        <Position x="1218" y="510" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="field">Score</Value>
+          <Value name="notauto">False</Value>
+          <Value name="breaks">1</Value>
+          <Value name="density">False</Value>
+          <Value name="scale">1.0</Value>
+          <Value name="inches">True</Value>
+          <Value name="in.w">5.50</Value>
+          <Value name="in.h">5.50</Value>
+          <Value name="centimeters">False</Value>
+          <Value name="cm.w">13.00</Value>
+          <Value name="cm.h">14.95</Value>
+          <Value name="graph.resolution">1x</Value>
+          <Value name="pointsize">10</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Histogram.yxmc" />
+    </Node>
+    <Node ToolID="62">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="1206" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="H_MAPE" action="Avg" rename="Avg_H_MAPE" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="63">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="1230" y="582" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="V_MAPE" action="Avg" rename="Avg_V_MAPE" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="64">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1266" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\jenic\AppData\Local\Temp\Engine_9732_2f576a43e31d1b47852c40381edc93cf_\Engine_9732_db76b9c09c784a4aa3e6c62d3a88ab89~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="65">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1302" y="510" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\jenic\AppData\Local\Temp\Engine_9732_2f576a43e31d1b47852c40381edc93cf_\Engine_9732_18e688da913f7149a23138d602eabbf8~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="66">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1290" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\jenic\AppData\Local\Temp\Engine_9732_2f576a43e31d1b47852c40381edc93cf_\Engine_9732_29f6086bb45c9c46a19bbcf4af9e39d0~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="67">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1302" y="582" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\jenic\AppData\Local\Temp\Engine_9732_2f576a43e31d1b47852c40381edc93cf_\Engine_9732_f066772aabb10142bc1a94ad44b7c6a3~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="68">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="1110" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="home_score" action="Avg" rename="Avg_home_score" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="69">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1206" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\jenic\AppData\Local\Temp\Engine_9732_2f576a43e31d1b47852c40381edc93cf_\Engine_9732_4bb8ca20ff77ed4ea99d4820d8a01035~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="70">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="1194" y="426" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="vis_score" action="Avg" rename="Avg_vis_score" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="71">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1290" y="426" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\jenic\AppData\Local\Temp\Engine_9732_2f576a43e31d1b47852c40381edc93cf_\Engine_9732_48fc7b039964e34698317c521744afb2~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="72">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1374" y="426" width="108" height="60" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>PHI: 20.29</Text>
+          <Font name="Arial" size="15.75" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="1" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="73">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1278" y="78" width="100" height="64" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>KC: 24.04</Text>
+          <Font name="Arial" size="15.75" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="1" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="True" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="True" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="True" />
+      <Destination ToolID="19" Connection="Data Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="True" />
+      <Destination ToolID="37" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="True" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="True" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="True" />
+      <Destination ToolID="31" Connection="Data Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="True" />
+      <Destination ToolID="39" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Reports" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Scater Output" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="Reports" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Scater Output" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="37" Connection="Estimation" />
+      <Destination ToolID="38" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="37" Connection="Validation" />
+      <Destination ToolID="45" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="37" Connection="Validation" />
+      <Destination ToolID="54" Connection="Model" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="38" Connection="Output" />
+      <Destination ToolID="54" Connection="Data" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="38" Connection="Reports" />
+      <Destination ToolID="41" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="38" Connection="Interactive Report" />
+      <Destination ToolID="44" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="39" Connection="Estimation" />
+      <Destination ToolID="40" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="39" Connection="Validation" />
+      <Destination ToolID="51" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="39" Connection="Validation" />
+      <Destination ToolID="55" Connection="Model" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="40" Connection="Output" />
+      <Destination ToolID="55" Connection="Data" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="40" Connection="Reports" />
+      <Destination ToolID="42" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="40" Connection="Interactive Report" />
+      <Destination ToolID="43" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="45" Connection="Reports" />
+      <Destination ToolID="46" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="45" Connection="Interactive Report" />
+      <Destination ToolID="47" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="51" Connection="Reports" />
+      <Destination ToolID="52" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="51" Connection="Interactive Report" />
+      <Destination ToolID="53" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="54" Connection="Output" />
+      <Destination ToolID="56" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="54" Connection="Output" />
+      <Destination ToolID="58" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="54" Connection="Output" />
+      <Destination ToolID="68" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="55" Connection="Output" />
+      <Destination ToolID="57" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="55" Connection="Output" />
+      <Destination ToolID="59" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="55" Connection="Output" />
+      <Destination ToolID="70" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="58" Connection="Output" />
+      <Destination ToolID="60" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="58" Connection="Output" />
+      <Destination ToolID="62" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="59" Connection="Output" />
+      <Destination ToolID="61" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="59" Connection="Output" />
+      <Destination ToolID="63" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="60" Connection="Output" />
+      <Destination ToolID="64" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="61" Connection="Output" />
+      <Destination ToolID="65" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="62" Connection="Output" />
+      <Destination ToolID="66" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="63" Connection="Output" />
+      <Destination ToolID="67" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="68" Connection="Output" />
+      <Destination ToolID="69" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="70" Connection="Output" />
+      <Destination ToolID="71" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="-5" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Super Bowl Prediction Project 2</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="3ec300df-5e66-4160-9476-fed9b362bbad" />
+      <Telemetry>
+        <PreviousWorkflowId value="ecb344e4-ad4f-41b6-ae10-4c7823d0b4c1" />
+        <OriginWorkflowId value="ecb344e4-ad4f-41b6-ae10-4c7823d0b4c1" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
