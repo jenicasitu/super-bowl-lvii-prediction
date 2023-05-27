@@ -1,5 +1,5 @@
 # Super Bowl LVII Prediction
-# Skills: Forecasting/Predictive Analytics, Alteryx
+Skills: Forecasting/Predictive Analytics, Alteryx
 
 This project was created for course BANA 287: The Art & Science of Applied Forecast Modeling at the University of california, Irvine under the guidance of Professors David Savlowitz and Michael Ponton in 2023.
 
